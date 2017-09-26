@@ -1,0 +1,55 @@
+call plug#begin()
+Plug 'scrooloose/nerdtree'
+Plug 'godlygeek/tabular'
+Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ervandew/supertab'
+Plug 'vim-syntastic/syntastic'
+call plug#end()
+
+"Set options for Syntastic syntax checker
+"=======================================
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+"let g:syntastic_enable_perl_checker = 1
+"let g:syntastic_perl_checkers = ['perl']
+
+
+"Set options for airline
+"=======================================
+set laststatus=2
+set t_Co=256
+let g:airline_theme='badwolf'
+let g:airline#extensions#tabline#enabled = 1
+
+"map keys
+"=======================================
+nnoremap <silent> <F5>p :!clear;python %<CR>
+nnoremap <silent> <F5>c :!firefox %<CR>
+nnoremap <silent> <F5>P :!perl %<CR>
+
+"set my options
+"=======================================
+colorscheme ron
+syntax on
+set number
+set cursorline
+set ai
+set wildmode=longest:full,full
+set wildmenu
+set hlsearch
+
+set ignorecase
+set smartcase
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+let g:loaded_netrw       = 1
+let g:loaded_netrwPlugin = 1
