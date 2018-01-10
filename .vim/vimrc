@@ -36,6 +36,7 @@ nnoremap <silent> <F5>P :!perl %<CR>
 
 "set my options
 "=======================================
+"look & feel
 colorscheme ron
 syntax on
 set number
@@ -45,11 +46,14 @@ set wildmode=longest:full,full
 set wildmenu
 set hlsearch
 
+"interaction
 set ignorecase
 set smartcase
 set tabstop=2
 set shiftwidth=2
 set expandtab
 
+"misc
+set backspace=indent,eol,start
 let g:loaded_netrw       = 1
 let g:loaded_netrwPlugin = 1
