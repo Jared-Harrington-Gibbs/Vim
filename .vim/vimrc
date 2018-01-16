@@ -57,9 +57,3 @@ set expandtab
 set backspace=indent,eol,start
 let g:loaded_netrw       = 1
 let g:loaded_netrwPlugin = 1
-
-"enable code folding
-set foldmethod=indent   
-set foldnestmax=10
-set nofoldenable
-set foldlevel=2
