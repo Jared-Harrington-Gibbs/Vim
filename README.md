@@ -1,7 +1,7 @@
 # Vim <br />
 <b>Description:<br /></b>
 This repository creates a nice/easy to use interface for vim experts and beginners alike.<br />
-It changes some defaults. E.g. Turning on line numbering and auto indentation. <br />
+It changes some defaults. E.g. Turning on line numbering and tab based indentation. <br />
 It also installs plugins for tab completion, themes, and other cool features.<br />
 <br />
 <b>#installation<br /></b>
