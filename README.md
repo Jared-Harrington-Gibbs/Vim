@@ -8,7 +8,7 @@ Make sure to move your .vimrc and .vim/ files.<br />
 <br />
 
 
-<b>#QuickStart</b>
+<b>#QuickStart Linux</b>
 ```
 git clone https://github.com/Jared-Harrington-Gibbs/Vim.git
 cd Vim
