@@ -10,7 +10,7 @@ Make sure to move your .vimrc and .vim/ files.<br />
 
 <b>#QuickStart</b>
 ```
-git clone https://github.com/Jared-Harrington-Gibbs/Vim.git <br />
+git clone https://github.com/Jared-Harrington-Gibbs/Vim.git
 cd Vim
 ./setup.sh 
 ```
