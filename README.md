@@ -12,7 +12,7 @@ Make sure to move your .vimrc and .vim/ files.<br />
 ```
 git clone https://github.com/Jared-Harrington-Gibbs/Vim.git
 cd Vim
-./setup.sh 
+./setup_for-linux.sh 
 ```
 <b>Notes:</b><br />
 If installation fails move/delete existing .vim files.<br />
